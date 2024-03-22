@@ -5,14 +5,14 @@ go 1.21
 replace github.com/templexxx/cpu v0.0.7 => github.com/templexxx/cpu v0.0.10-0.20211111114238-98168dcec14a
 
 replace (
-	github.com/liukeqqs/core v0.0.6 => ../core
-	github.com/liukeqqs/x v0.0.6 => ../x
+	github.com/liukeqqs/core v0.0.0-20240322102314-0c364bf55d25 => ../core
+	github.com/liukeqqs/x v0.0.0-20240322102309-9a6e2c305ed3 => ../x
 )
 
 require (
 	github.com/judwhite/go-svc v1.2.1
-	github.com/liukeqqs/core v0.0.6
-	github.com/liukeqqs/x v0.0.6
+	github.com/liukeqqs/core v0.0.0-20240322102314-0c364bf55d25
+	github.com/liukeqqs/x v0.0.0-20240322102309-9a6e2c305ed3
 )
 
 require (
