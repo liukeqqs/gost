@@ -50,23 +50,23 @@ Use tunnel and intranet penetration to expose local services behind NAT or firew
 
 ### Binary files
 
-[https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
+[https://github.com/liukeqqs/gost/releases](https://github.com/liukeqqs/gost/releases)
 
 ### install script
 
 ```bash
-# install latest from [https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
-bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --install
+# install latest from [https://github.com/liukeqqs/gost/releases](https://github.com/liukeqqs/gost/releases)
+bash <(curl -fsSL https://github.com/liukeqqs/gost/raw/master/install.sh) --install
 ```
 ```bash
 # select version for install 
-bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh)
+bash <(curl -fsSL https://github.com/liukeqqs/gost/raw/master/install.sh)
 ```
 
 ### From source
 
 ```
-git clone https://github.com/go-gost/gost.git
+git clone https://github.com/liukeqqs/gost.git
 cd gost/cmd/gost
 go build
 ```

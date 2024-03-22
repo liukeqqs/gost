@@ -1,13 +1,18 @@
-module github.com/go-gost/gost
+module github.com/liukeqqs/gost
 
 go 1.21
 
 replace github.com/templexxx/cpu v0.0.7 => github.com/templexxx/cpu v0.0.10-0.20211111114238-98168dcec14a
 
+replace (
+	github.com/liukeqqs/core v0.0.6 => ../core
+	github.com/liukeqqs/x v0.0.6 => ../x
+)
+
 require (
-	github.com/go-gost/core v0.0.0-20240131151724-a06608ccafbf
-	github.com/go-gost/x v0.0.0-20240131151842-25dcf536c6f5
 	github.com/judwhite/go-svc v1.2.1
+	github.com/liukeqqs/core v0.0.6
+	github.com/liukeqqs/x v0.0.6
 )
 
 require (
@@ -59,10 +64,9 @@ require (
 	github.com/onsi/ginkgo/v2 v2.12.0 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
-	github.com/pion/dtls/v2 v2.2.6 // indirect
+	github.com/pion/dtls/v2 v2.2.10 // indirect
 	github.com/pion/logging v0.2.2 // indirect
-	github.com/pion/transport/v2 v2.0.2 // indirect
-	github.com/pion/udp/v2 v2.0.1 // indirect
+	github.com/pion/transport/v2 v2.2.4 // indirect
 	github.com/pires/go-proxyproto v0.7.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.17.0 // indirect
@@ -101,11 +105,11 @@ require (
 	go.uber.org/mock v0.3.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.6.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
 	golang.org/x/exp v0.0.0-20231219180239-dc181d75b848 // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.16.0 // indirect

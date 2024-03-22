@@ -52,23 +52,23 @@ GOST作为隧道有三种主要使用方式。
 
 ### 二进制文件
 
-[https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
+[https://github.com/liukeqqs/gost/releases](https://github.com/liukeqqs/gost/releases)
 
 ### 安装脚本
 
 ```bash
-# 安装最新版本 [https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
-bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --install
+# 安装最新版本 [https://github.com/liukeqqs/gost/releases](https://github.com/liukeqqs/gost/releases)
+bash <(curl -fsSL https://github.com/liukeqqs/gost/raw/master/install.sh) --install
 ```
 ```bash
 # 选择要安装的版本
-bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh)
+bash <(curl -fsSL https://github.com/liukeqqs/gost/raw/master/install.sh)
 ```
 
 ### 源码编译
 
 ```
-git clone https://github.com/go-gost/gost.git
+git clone https://github.com/liukeqqs/gost.git
 cd gost/cmd/gost
 go build
 ```

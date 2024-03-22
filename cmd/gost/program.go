@@ -6,15 +6,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-gost/core/logger"
-	mdutil "github.com/go-gost/core/metadata/util"
-	"github.com/go-gost/x/config"
-	"github.com/go-gost/x/config/parsing"
-	logger_parser "github.com/go-gost/x/config/parsing/logger"
-	xmd "github.com/go-gost/x/metadata"
-	xmetrics "github.com/go-gost/x/metrics"
-	"github.com/go-gost/x/registry"
 	"github.com/judwhite/go-svc"
+	"github.com/liukeqqs/core/logger"
+	mdutil "github.com/liukeqqs/core/metadata/util"
+	"github.com/liukeqqs/x/config"
+	"github.com/liukeqqs/x/config/parsing"
+	logger_parser "github.com/liukeqqs/x/config/parsing/logger"
+	xmd "github.com/liukeqqs/x/metadata"
+	xmetrics "github.com/liukeqqs/x/metrics"
+	"github.com/liukeqqs/x/registry"
 )
 
 type program struct {

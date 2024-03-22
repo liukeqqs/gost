@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-gost/core/logger"
-	xlogger "github.com/go-gost/x/logger"
 	"github.com/judwhite/go-svc"
+	"github.com/liukeqqs/core/logger"
+	xlogger "github.com/liukeqqs/x/logger"
 )
 
 var (
